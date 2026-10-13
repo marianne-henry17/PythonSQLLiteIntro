@@ -69,6 +69,7 @@ A ready-made `flight_management.db` is also included in the repository, so step 
 - A flight's origin and destination must be different airports that already exist in the database.
 - A pilot cannot be assigned to two flights with the same departure date and time.
 - Deleting a flight also deletes its pilot assignments, after the user confirms.
+- The starter template’s single-table design was extended to four related tables. The program is organised as functions, one per menu option.
 
 ## AI use
 
